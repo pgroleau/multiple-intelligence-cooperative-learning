@@ -1,0 +1,70 @@
+@font-face {
+    font-family:'OpenDyslexic';
+    src: url('fonts/OpenDyslexic-Regular.otf') format('opentype'),
+         url('fonts/OpenDyslexic-Bold.otf') format('opentype'),
+         url('fonts/OpenDyslexic-BoldItalic.otf') format('opentype'),
+         url('fonts/OpenDyslexic-Italic.otf') format('opentype');
+}
+
+body {
+    background-color: #AE686A;
+}
+
+div {
+    max-width: 820px;
+    font-family: 'OpenDyslexic', 'Comic Sans MS', 'Comic Sans', sans-serif;
+    margin:auto;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1:hover {
+    background-color: darkslategrey;
+}
+
+h2:hover {
+    background-color: darkslategrey;
+}
+
+h3:hover {
+    background-color: darkslategrey;
+}
+
+p{
+    padding: 0em 2em 0em 2em;
+}
+
+.special {
+    list-style-type: none;
+}
+
+p:hover {
+    background-color: darkslategrey;
+    padding: 0em 2em 0em 2em;
+}
+
+li:hover {
+    background-color: darkslategrey;
+}
+
+ul {
+    padding: 0em 4em 0em 4em;
+}
+
+a {
+    color: white;
+}
+
+img {
+    margin: auto;
+    max-height: 240px;
+    max-width: 100%;
+    display: block;
+}
